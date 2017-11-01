@@ -1,2 +1,6 @@
-import baseRules from './base';
-export default baseRules;
+module.exports = {
+  'extends': './base',
+  'parserOptions': {
+    'sourceType': 'module',
+  },
+};

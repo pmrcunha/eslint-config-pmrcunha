@@ -1,2 +1,6 @@
-import reactRules from './react';
-export default reactRules;
+module.exports = {
+  'extends': './react',
+  'parserOptions': {
+    'sourceType': 'module',
+  },
+};
