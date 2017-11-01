@@ -1,1 +1,2 @@
-import './react';
+import reactRules from './react';
+export default reactRules;
