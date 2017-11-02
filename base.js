@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': './base',
+  'extends': './base/index.js',
   'parserOptions': {
     'sourceType': 'module',
   },
