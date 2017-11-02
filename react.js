@@ -1,6 +1,6 @@
 module.exports = {
-  'extends': './react',
-  'parserOptions': {
-    'sourceType': 'module',
+  extends: './react/index.js',
+  parserOptions: {
+    sourceType: 'module',
   },
 };
