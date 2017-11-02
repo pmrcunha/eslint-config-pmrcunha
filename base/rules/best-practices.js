@@ -58,7 +58,7 @@ module.exports = {
 
     // disallow else after a return in an if
     // https://eslint.org/docs/rules/no-else-return
-    'no-else-return': ['error', { allowElseIf: false }],
+    // 'no-else-return': ['error', { allowElseIf: false }],
 
     // disallow empty functions, except for standalone funcs/arrows
     // https://eslint.org/docs/rules/no-empty-function
