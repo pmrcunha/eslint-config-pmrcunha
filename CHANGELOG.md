@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/pmrcunha/eslint-config-pmrcunha/compare/v1.1.0...v1.2.0) (2019-02-17)
+
+
+### Update
+
+* Allow reassigning obj properties of parameters ([2abe4cb3c25c09c04e486f73f64b08767851b70e](https://github.com/pmrcunha/eslint-config-pmrcunha/commit/2abe4cb3c25c09c04e486f73f64b08767851b70e))
+
 # [1.1.0](https://github.com/pmrcunha/eslint-config-pmrcunha/compare/v1.0.0...v1.1.0) (2019-02-17)
 
 
