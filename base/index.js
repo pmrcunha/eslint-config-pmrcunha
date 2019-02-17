@@ -7,6 +7,7 @@ module.exports = {
     './rules/variables',
     './rules/es6',
     './rules/imports',
+    'eslint-config-prettier',
   ].map(require.resolve),
   parser: 'babel-eslint',
   parserOptions: {
@@ -18,6 +19,6 @@ module.exports = {
   },
   env: {
     jest: true,
-    browser: true
+    browser: true,
   },
 };

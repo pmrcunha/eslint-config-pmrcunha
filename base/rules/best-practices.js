@@ -101,8 +101,6 @@ module.exports = {
     // disallow reassignments of native objects or read-only globals
     // https://eslint.org/docs/rules/no-global-assign
     'no-global-assign': ['error', { exceptions: [] }],
-    // deprecated in favor of no-global-assign
-    'no-native-reassign': 'off',
 
     // disallow implicit type conversions
     // https://eslint.org/docs/rules/no-implicit-coercion
@@ -345,5 +343,14 @@ module.exports = {
 
     // require or disallow Yoda conditions
     yoda: 'error',
+
+    'max-classes-per-file': 'off',
+    'no-misleading-character-class': 'off',
+    'require-atomic-updates': 'off',
+    'max-lines-per-function': 'off',
+    'no-useless-catch': 'off',
+    'require-unicode-regexp': 'off',
+    'no-async-promise-executor': 'error',
+    'prefer-object-spread': 'error',
   },
 };

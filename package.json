@@ -7,10 +7,14 @@
   "author": "Paulo Cunha <paulomrcunha@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "eslint-find-option-rules": "eslint-find-rules -d -u ./base.js",
-    "eslint-find-option-rules:react": "eslint-find-rules -d -u ./react.js",
-    "eslint-diff-rules": "eslint-diff-rules ./base.js ./react.js",
-    "validate": "yarn eslint-find-option-rules && yarn eslint-find-option-rules:react"
+    "unused-rules": "eslint-find-rules -u ./base.js",
+    "unused-rules:react": "eslint-find-rules -u ./react.js",
+    "unused": "yarn unused-rules && yarn unused-rules:react",
+    "deprecated-rules": "eslint-find-rules -d ./base.js",
+    "deprecated-rules:react": "eslint-find-rules -d ./react.js",
+    "deprecated": "yarn deprecated-rules && yarn deprecated-rules:react",
+    "diff-rules": "eslint-diff-rules ./base.js ./react.js",
+    "validate": "yarn unused"
   },
   "dependencies": {
     "babel-eslint": "^10",

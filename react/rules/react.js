@@ -341,11 +341,6 @@ module.exports = {
       },
     ],
 
-    // Enforce spaces before the closing bracket of self-closing JSX elements
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    // Deprecated in favor of jsx-tag-spacing
-    'react/jsx-space-before-closing': ['off', 'always'],
-
     // Prevent usage of Array index in keys
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
     'react/no-array-index-key': 'error',
@@ -397,6 +392,19 @@ module.exports = {
       'error',
       { props: 'never', children: 'never' },
     ],
+
+    'react/button-has-type': 'warn',
+    'react/jsx-child-element-spacing': 'off',
+    'react/jsx-one-expression-per-line': ['warn', { allow: 'single-child' }],
+    'react/no-access-state-in-setstate': 'error',
+    'react/destructuring-assignment': ['warn', 'always'],
+    'react/jsx-fragments': ['warn', 'element'],
+    'react/jsx-props-no-multi-spaces': 'warn',
+    'react/no-this-in-sfc': 'error',
+    'react/forbid-dom-props': 'off',
+    'react/jsx-max-depth': 'off',
+    'react/jsx-sort-default-props': 'off',
+    'react/no-unsafe': ['error', { checkAliases: true }],
 
     'react-hooks/rules-of-hooks': 'error',
   },
