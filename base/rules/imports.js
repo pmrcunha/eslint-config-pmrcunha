@@ -61,6 +61,7 @@ module.exports = {
           'test/**', // tape, common npm pattern
           'tests/**', // also common npm pattern
           'spec/**', // mocha, rspec-like pattern
+          'scripts/**', // build scripts should be dev dependencies
           '**/__tests__/**', // jest pattern
           'test.{js,jsx}', // repos with a single test file
           'test-*.{js,jsx}', // repos with multiple top-level test files
