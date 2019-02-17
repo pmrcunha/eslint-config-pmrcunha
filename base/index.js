@@ -8,14 +8,15 @@ module.exports = {
     './rules/es6',
     './rules/imports',
   ].map(require.resolve),
+  parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion: 2017,
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
+    ecmaVersion: 10,
   },
   rules: {
     strict: 'error',
+  },
+  env: {
+    jest: true,
+    browser: true
   },
 };
