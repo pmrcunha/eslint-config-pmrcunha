@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/pmrcunha/eslint-config-pmrcunha/compare/v1.0.0...v1.1.0) (2019-02-17)
+
+
+### New
+
+* Add babel rules ([a16437fd211aa1dd71439aeced1ddc56bc9ab078](https://github.com/pmrcunha/eslint-config-pmrcunha/commit/a16437fd211aa1dd71439aeced1ddc56bc9ab078))
+
 # 1.0.0 (2019-02-17)
 
 
