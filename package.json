@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pmrcunha",
-  "version": "0.3.8",
+  "version": "1.0.0",
   "description": "My personal linting rules",
   "main": "index.js",
   "repository": "git@github.com:pmrcunha/eslint-config-pmrcunha.git",
