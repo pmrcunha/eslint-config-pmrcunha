@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/pmrcunha/eslint-config-pmrcunha/compare/v1.2.0...v1.3.0) (2019-02-17)
+
+
+### Update
+
+* Build scripts should be devDependencies ([25b33d5261794b4ba7a05a2d931b335fa221a64f](https://github.com/pmrcunha/eslint-config-pmrcunha/commit/25b33d5261794b4ba7a05a2d931b335fa221a64f))
+
 # [1.2.0](https://github.com/pmrcunha/eslint-config-pmrcunha/compare/v1.1.0...v1.2.0) (2019-02-17)
 
 
