@@ -6,15 +6,41 @@
   "repository": "git@github.com:pmrcunha/eslint-config-pmrcunha.git",
   "author": "Paulo Cunha <paulomrcunha@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "eslint-find-option-rules": "eslint-find-rules -d -u ./base.js",
+    "eslint-find-option-rules:react": "eslint-find-rules -d -u ./react.js",
+    "eslint-diff-rules": "eslint-diff-rules ./base.js ./react.js",
+    "validate": "yarn eslint-find-option-rules && yarn eslint-find-option-rules:react"
+  },
   "dependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint": "^4.10.0",
-    "eslint-find-rules": "^3.1.1",
-    "eslint-plugin-babel": "^4.1.2",
-    "eslint-plugin-html": "^3.2.2",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0",
-    "eslint-restricted-globals": "^0.1.1"
+    "babel-eslint": "^10",
+    "eslint": "^5",
+    "eslint-find-rules": "^3",
+    "eslint-plugin-babel": "^5",
+    "eslint-plugin-html": "^5",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-config-prettier": "^4",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^1",
+    "eslint-restricted-globals": "^0.2"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^3",
+    "@semantic-release/git": "^7",
+    "@semantic-release/npm": "^5",
+    "@semantic-release/release-notes-generator": "^7",
+    "commitlint": "^7",
+    "conventional-changelog-eslint": "^3",
+    "husky": "^1",
+    "lint-staged": "^8",
+    "prettier": "^1",
+    "semantic-release": "^15"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
   }
 }
