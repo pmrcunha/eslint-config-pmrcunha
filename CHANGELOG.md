@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/pmrcunha/eslint-config-pmrcunha/compare/v1.3.0...v1.4.0) (2019-02-18)
+
+
+### Update
+
+* Turn off curly spaces rule ([7b4b3623a45d4f42da87345bca8759d2560e5fd8](https://github.com/pmrcunha/eslint-config-pmrcunha/commit/7b4b3623a45d4f42da87345bca8759d2560e5fd8))
+
 # [1.3.0](https://github.com/pmrcunha/eslint-config-pmrcunha/compare/v1.2.0...v1.3.0) (2019-02-17)
 
 
