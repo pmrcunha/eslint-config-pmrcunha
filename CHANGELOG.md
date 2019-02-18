@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/pmrcunha/eslint-config-pmrcunha/compare/v1.4.0...v1.5.0) (2019-02-18)
+
+
+### Update
+
+* Change import rules ([08519c7a93338c4ff7f24e443eea5e37018795f7](https://github.com/pmrcunha/eslint-config-pmrcunha/commit/08519c7a93338c4ff7f24e443eea5e37018795f7))
+
 # [1.4.0](https://github.com/pmrcunha/eslint-config-pmrcunha/compare/v1.3.0...v1.4.0) (2019-02-18)
 
 
