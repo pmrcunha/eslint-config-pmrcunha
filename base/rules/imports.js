@@ -61,7 +61,7 @@ module.exports = {
           'test/**', // tape, common npm pattern
           'tests/**', // also common npm pattern
           'spec/**', // mocha, rspec-like pattern
-          'scripts/**', // build scripts should be dev dependencies
+          'scripts/*.js', // build scripts should be dev dependencies
           '**/__tests__/**', // jest pattern
           'test.{js,jsx}', // repos with a single test file
           'test-*.{js,jsx}', // repos with multiple top-level test files
@@ -150,7 +150,7 @@ module.exports = {
 
     // Require modules with a single export to use a default export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-    'import/prefer-default-export': 'warn',
+    'import/prefer-default-export': 'off',
 
     // Restrict which files can be imported in a given folder
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
